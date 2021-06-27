@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="divCtoF">
+            <form action="" id="formCtoF">
+                <label for="">Convert Celsius to Fahrenheit & Kelvin</label><br>
+                <input type="text" name="converter" id="inpCelsius" placeholder="Enter the temperature in &deg;C">
+                <input type="submit" id="btnCtoF" class="btnSubmit">
+                <div>
+                    <p id="pCtoF"></p>
+                    <p id="pCtoK"></p>
+                </div>
+            </form>
+        </div>
+        <div class="divFtoC">
+            <form action="" id="formFtoC">
+                <label for="">Convert Fahrenheit to Celsius & Kelvin</label><br>
+                <input type="text" name="converter" id="inpFahrenheit" placeholder="Enter the temperature in &deg;F">
+                <input type="submit" id="btnFtoC" class="btnSubmit">
+                <div>
+                    <p id="pFtoC"></p>
+                    <p id="pFtoK"></p>
+                </div>
+            </form>
+        </div>
+        <div class="divKtoC">
+            <form action="" id="formKtoC">
+                <label for="">Convert Kelvin to Celsius & Fahrenheit</label><br>
+                <input type="text" name="converter" id="inpKelvin" placeholder="Enter the temperature in K">
+                <input type="submit" id="btnKtoC" class="btnSubmit">
+                <div>
+                    <p id="pKtoC"></p>
+                    <p id="pKtoF"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

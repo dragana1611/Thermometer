@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    background: url(img/temp.jpg) no-repeat right center;
+    background-size: cover;
+}
+
+p{ 
+    width: 40%;
+    height: 40px;
+    font-size: x-large;
+    font-weight: bold;
+    border: 0.5px solid rgb(201, 201, 201);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px;
+}
+input{
+    width: 60%;
+    height: 30px;    
+    margin: 20px;
+    padding: 5px;
+    border: 0.5px solid rgb(201, 201, 201);
+    border-radius: 5px;
+}
+label{
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;    
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.divCtoF{
+    align-items: center;
+    margin-top: 20px;
+    padding: 5px;
+    width: 100%;     
+}
+
+.divFtoC{ 
+    align-items: center;
+    margin-top: 20px;
+    padding: 5px;
+    width: 100%;
+}
+
+.divKtoC{
+    align-items: center;
+    margin-top: 20px;
+    padding: 5px;
+    width: 100%;
+}
+
+.btnSubmit{
+    width: 20%;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 5px;
+    border: none;
+    background-color: rgb(255, 254, 235);
+    box-shadow: 2px 2px 2px rgb(134, 99, 8);
+}
